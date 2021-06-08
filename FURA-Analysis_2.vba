@@ -25,8 +25,8 @@ Sub Macro()
     Dim x As Integer
     Dim LineValue As String
     Dim Table1 As Variant
-    Dim IdFile1 = "340"
-    Dim IdFile2 = "380"
+    Dim IdFile1 = "340" As String
+    Dim IdFile2 = "380" As String
 
 
     PathFinal = Application.ThisWorkbook.Path & "\"
