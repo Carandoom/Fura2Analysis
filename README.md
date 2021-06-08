@@ -15,5 +15,5 @@ Create 2 set of ROIs to put in a folder named "2_ROIs", 1 for background subtrac
 
 ### Second Script (VBA)
 Two versions are available, one to create a ratio of 2 channels (FURA-Analysis_2) and another one to just work with 1 channel data (FURA-Analysis_2_MnQuench).  
-The ratio version works only for files containing either "340" or "380" in their name, you could modify these two identification parameters to make a ratio of any set of files.
-The 1 channel version works only for files containing "360" in their name, you could modify this value to open any file.
+The ratio version works only for files containing either "340" or "380" in their name, you could modify these two identification parameters (lines 31 and 32, var names "IdFile1" and "IdFile2") to make a ratio of any set of files.  
+The 1 channel version works only for files containing "360" in their name, you could modify this value to open any file (line 27, var name "IdFile1").
