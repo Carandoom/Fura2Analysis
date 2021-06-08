@@ -25,10 +25,11 @@ Sub Macro()
     Dim x As Integer
     Dim LineValue As String
     Dim Table1 As Variant
-    Dim IdFile1 = "340" As String
-    Dim IdFile2 = "380" As String
-
-
+    Dim IdFile1 As String
+    Dim IdFile2 As String
+    
+    IdFile1 = "340"
+    IdFile2 = "380"
     PathFinal = Application.ThisWorkbook.Path & "\"
     Path = PathFinal & "3_Analysis\"
     Set objFSO = CreateObject("Scripting.FileSystemObject")
