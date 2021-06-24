@@ -1,4 +1,4 @@
-# FURA-2 Analysis
+# FURA-2 Analysis [![DOI](https://zenodo.org/badge/373477639.svg)](https://zenodo.org/badge/latestdoi/373477639)
 
 This script is in 2 parts, the first working on ImageJ/Fiji and the second is using VBA (Excel).
 The second part is available as .vba files (the code itself to include into your notebook) or as .xlsm files (the Excel file itself) where you only have to press on the button "start script" (the .xlsm file need to be in the same folder as the data).
